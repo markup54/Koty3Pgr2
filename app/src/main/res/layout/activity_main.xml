@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00796B"
+    android:background="@color/tlo1"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/tlo">
 
     <TextView
         android:layout_width="match_parent"
@@ -66,12 +67,12 @@
         android:text="Który obraz wyświetlić?" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="number"
+        android:hint="0" />
     </LinearLayout>
 
 
